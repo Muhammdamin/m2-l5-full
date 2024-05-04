@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.d1{
+    background-color: black;
+   padding: 12px 24px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
+
+
+
+.menu li a:hover{
+    color: rgb(23, 229, 71);
+}
+
+.btn:hover{
+    color: rgb(23, 229, 71);
+    background-color: white;
+    border: 1px solid  rgb(23, 229, 71);
+}
+.btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color:  rgb(23, 229, 71);
+    border:none
+}
+.bussiness{
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    gap: 74px;
+}
+main h1,p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+main h1{
+    font-size: 36px;
+}
+.btn{
+    margin-top: 25px;
+}
+.h{
+    text-align: center;
+}
+.help{
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+.dadcards div{
+   background-color: white;
+    width: 384px;
+    border: 2px solid whitesmoke;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.dadcards{
+    display: flex;
+    gap: 32px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.dadcards div:hover{
+   color: white;
+   background-color:  rgb(23, 229, 71);
+}
+.Dad{
+    width: 1480px;
+    height: 780px;
+    background-color: whitesmoke;
+    margin-left: 83px;
+}
+
+.dadcards div h1::after{
+    content: url("./img/chart-2.png");
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+main h3{
+    font-size: 32px;
+    text-align: center;
+    color:rgba(16, 16, 16, 1);
+}
+.p3{
+    text-align: center;
+    color:rgba(99, 111, 135, 1);
+}
+.rasm2{
+    padding: 28px 112px 51px 112px;
+     margin-left: 20px;
+}
+.dadcards1{
+    display: flex;
+    gap: 80px;
+}
+footer .container{
+    max-width: 1440px;
+    background-color: black;
+    height: 120px;
+}.container-mars{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+i{
+    font-size: 24px;
+    gap: 61px;
+    color: white;
+}   
+.h42{
+   color: rgba(255, 255, 255, 1);
+   padding-top: 18px;
+}
+.h31{
+    color: rgba(255, 255, 255, 1);
+}
+
+.h4{
+    color: rgba(161, 168, 183, 1);
+    padding-top: 22px;
+    padding-left: 75px;
+}
+.rasm3:hover{
+    color: white;
+}
+.icons{
+   padding-top: 20px;
+   padding-left: 180px;
+}
+.rasm3{
+    padding-top: 22px;
+    padding-left: 75px;
+}
+.p4 {
+    padding-left: 250px;
+    color: gray;
+}
+.h42{
+    padding-left: 250px;
+}
+.d1:hover{
+    border: none;
+    background-color: rgb(61, 235, 17);
+}
+.bg-img{
+    background-image: url("./img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px 0;
+}
+form{
+    background-color: black;
+    opacity: 0.4;
+    width: 565px;
+    margin: 10px auto;
+    height: 250px;
+}
+input{
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 30px;
+    width: 463px;
+    height: 46px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    margin-top: 30px;
+}
+.container-mars .btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color:  rgb(23, 229, 71);
+    border:none
+
+}
+footer{
+    margin-top: 55px;
+}
+.btn1:hover{
+    color: rgb(23, 229, 71);
+    background-color: white;
+    border: 1px solid  rgb(23, 229, 71);
+}
+
